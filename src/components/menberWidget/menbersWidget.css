@@ -1,0 +1,51 @@
+.menbersWidgetContainer{
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 10px 1px rgb(201, 201, 201, 0.47);
+}
+.menbersWidgeTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.menbersWidgetList{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menbersWidgetListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.widgetImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.menbersWidgetUser{
+    display: flex;
+    flex-direction: column;
+}
+.menbersWidgetUsername{
+    font-weight: 600;
+}
+.menbersWidgetUserTitle{
+    font-weight: 300;
+}
+.menbersWidgetButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: #555;
+    cursor: pointer;
+
+}
+.menbersWidgetIcon{
+    font-size: 16;
+    margin-right: 5px;
+}
